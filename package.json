@@ -1,29 +1,30 @@
 {
-  "name": "studywebpack",
+  "name": "webpack-lesson",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack study",
   "main": "index.js",
-  "bin": {
-    "rmc": "./bin/rmc.js"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --colors --progress --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.13.2",
-    "css-loader": "^0.23.1",
-    "minimist": "^1.2.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvkens/webpack-lesson.git"
   },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Kvkens (kvkens@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvkens/webpack-lesson/issues"
+  },
+  "homepage": "https://github.com/kvkens/webpack-lesson#readme",
   "dependencies": {
-    "chalk": "^1.1.3"
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
   }
 }
